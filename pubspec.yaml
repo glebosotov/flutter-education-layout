@@ -5,13 +5,16 @@ homepage: https://github.com/marcglasberg/flutter_layout_article
 #author: Marcelo Glasberg <marcglasberg@gmail.com>
 
 environment:
-  sdk: '>=2.13.0 <3.0.0'
+  sdk: ">=2.13.0 <3.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
+  flutter_markdown: ^0.6.22
+  google_fonts: ^6.2.1
 
 dev_dependencies:
+  flutter_lints: ^3.0.2
 
 flutter:
-
+  uses-material-design: true
